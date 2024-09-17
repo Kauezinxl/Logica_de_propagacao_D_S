@@ -65,7 +65,6 @@ while True:
         posição_nome -=1
         if posição_nome >= 0 and posição_nome <= len(lista_usuario):
             lista_usuario.insert(posição_nome, novo_nome)
-        else:
     
     #Sair
     elif opcao == '6':
